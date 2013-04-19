@@ -10,20 +10,22 @@
 
 @implementation AppDelegate
 
+@synthesize window;
+@synthesize root;
+
+-(void)applicationDidFinishLaunching:(UIApplication *)application{
+    [window addSubview:root.view];
+    [window makeKeyAndVisible];
+}
+
 - (void)dealloc
 {
-    [_window release];
+    [root release];
+    [window release];
     [super dealloc];
 }
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
-{
-    self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
-    // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
-    [self.window makeKeyAndVisible];
-    return YES;
-}
+
 
 - (void)applicationWillResignActive:(UIApplication *)application
 {

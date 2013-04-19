@@ -16,6 +16,13 @@
 		AE900660171CF0E600A16CF2 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = AE90065F171CF0E600A16CF2 /* Default.png */; };
 		AE900662171CF0E600A16CF2 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AE900661171CF0E600A16CF2 /* Default@2x.png */; };
 		AE900664171CF0E600A16CF2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AE900663171CF0E600A16CF2 /* Default-568h@2x.png */; };
+		AE90066D171CF10700A16CF2 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE90066C171CF10700A16CF2 /* MainWindow.xib */; };
+		AE900670171CF18B00A16CF2 /* JSEngineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE90066F171CF18B00A16CF2 /* JSEngineViewController.m */; };
+		AE900672171CF19D00A16CF2 /* JSEngineView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE900671171CF19D00A16CF2 /* JSEngineView.xib */; };
+		AE90068F171CF33B00A16CF2 /* libstdc++.6.0.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AE90068E171CF33B00A16CF2 /* libstdc++.6.0.9.dylib */; };
+		AE900691171CF34800A16CF2 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AE900690171CF34800A16CF2 /* libicucore.dylib */; };
+		AE9006A9171CF77F00A16CF2 /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AE9006A8171CF77F00A16CF2 /* libstdc++.dylib */; };
+		AE9006AB171CF7D100A16CF2 /* libiOSJavaScriptCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AE9006AA171CF7D100A16CF2 /* libiOSJavaScriptCore.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +39,27 @@
 		AE90065F171CF0E600A16CF2 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		AE900661171CF0E600A16CF2 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		AE900663171CF0E600A16CF2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		AE90066C171CF10700A16CF2 /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		AE90066E171CF18B00A16CF2 /* JSEngineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSEngineViewController.h; sourceTree = "<group>"; };
+		AE90066F171CF18B00A16CF2 /* JSEngineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSEngineViewController.m; sourceTree = "<group>"; };
+		AE900671171CF19D00A16CF2 /* JSEngineView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JSEngineView.xib; sourceTree = "<group>"; };
+		AE90068E171CF33B00A16CF2 /* libstdc++.6.0.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.0.9.dylib"; path = "usr/lib/libstdc++.6.0.9.dylib"; sourceTree = SDKROOT; };
+		AE900690171CF34800A16CF2 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		AE90069D171CF76900A16CF2 /* JavaScript.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JavaScript.h; sourceTree = "<group>"; };
+		AE90069E171CF76900A16CF2 /* JavaScriptCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JavaScriptCore.h; sourceTree = "<group>"; };
+		AE90069F171CF76900A16CF2 /* JSBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSBase.h; sourceTree = "<group>"; };
+		AE9006A0171CF76900A16CF2 /* JSContextRef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSContextRef.h; sourceTree = "<group>"; };
+		AE9006A1171CF76900A16CF2 /* JSObjectRef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSObjectRef.h; sourceTree = "<group>"; };
+		AE9006A2171CF76900A16CF2 /* JSStringRef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSStringRef.h; sourceTree = "<group>"; };
+		AE9006A3171CF76900A16CF2 /* JSStringRefCF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSStringRefCF.h; sourceTree = "<group>"; };
+		AE9006A4171CF76900A16CF2 /* JSValueRef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSValueRef.h; sourceTree = "<group>"; };
+		AE9006A5171CF76900A16CF2 /* WebKitAvailability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebKitAvailability.h; sourceTree = "<group>"; };
+		AE9006A8171CF77F00A16CF2 /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
+		AE9006AA171CF7D100A16CF2 /* libiOSJavaScriptCore.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libiOSJavaScriptCore.a; path = JSEngine/libiOSJavaScriptCore.a; sourceTree = "<group>"; };
+		AE9006AC171CFA2700A16CF2 /* JsCoreEngineWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = JsCoreEngineWrapper.h; path = ../JsCoreEngineWrapper.h; sourceTree = "<group>"; };
+		AE9006AD171CFA2700A16CF2 /* JsCoreEngineWrapper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = JsCoreEngineWrapper.m; path = ../JsCoreEngineWrapper.m; sourceTree = "<group>"; };
+		AE9006AE171CFA8100A16CF2 /* SCNEngine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCNEngine.h; sourceTree = "<group>"; };
+		AE9006AF171CFA8100A16CF2 /* SCNEngine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCNEngine.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,9 +67,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE900691171CF34800A16CF2 /* libicucore.dylib in Frameworks */,
+				AE9006A9171CF77F00A16CF2 /* libstdc++.dylib in Frameworks */,
+				AE90068F171CF33B00A16CF2 /* libstdc++.6.0.9.dylib in Frameworks */,
 				AE90064E171CF0E600A16CF2 /* UIKit.framework in Frameworks */,
 				AE900650171CF0E600A16CF2 /* Foundation.framework in Frameworks */,
 				AE900652171CF0E600A16CF2 /* CoreGraphics.framework in Frameworks */,
+				AE9006AB171CF7D100A16CF2 /* libiOSJavaScriptCore.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +100,10 @@
 		AE90064C171CF0E600A16CF2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AE9006A8171CF77F00A16CF2 /* libstdc++.dylib */,
+				AE9006AA171CF7D100A16CF2 /* libiOSJavaScriptCore.a */,
+				AE900690171CF34800A16CF2 /* libicucore.dylib */,
+				AE90068E171CF33B00A16CF2 /* libstdc++.6.0.9.dylib */,
 				AE90064D171CF0E600A16CF2 /* UIKit.framework */,
 				AE90064F171CF0E600A16CF2 /* Foundation.framework */,
 				AE900651171CF0E600A16CF2 /* CoreGraphics.framework */,
@@ -78,9 +114,14 @@
 		AE900653171CF0E600A16CF2 /* JSEngine */ = {
 			isa = PBXGroup;
 			children = (
+				AE90069C171CF76900A16CF2 /* JavaScriptCore */,
 				AE90065C171CF0E600A16CF2 /* AppDelegate.h */,
 				AE90065D171CF0E600A16CF2 /* AppDelegate.m */,
 				AE900654171CF0E600A16CF2 /* Supporting Files */,
+				AE90066C171CF10700A16CF2 /* MainWindow.xib */,
+				AE90066E171CF18B00A16CF2 /* JSEngineViewController.h */,
+				AE90066F171CF18B00A16CF2 /* JSEngineViewController.m */,
+				AE900671171CF19D00A16CF2 /* JSEngineView.xib */,
 			);
 			path = JSEngine;
 			sourceTree = "<group>";
@@ -97,6 +138,26 @@
 				AE900663171CF0E600A16CF2 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AE90069C171CF76900A16CF2 /* JavaScriptCore */ = {
+			isa = PBXGroup;
+			children = (
+				AE9006AE171CFA8100A16CF2 /* SCNEngine.h */,
+				AE9006AF171CFA8100A16CF2 /* SCNEngine.m */,
+				AE9006AC171CFA2700A16CF2 /* JsCoreEngineWrapper.h */,
+				AE9006AD171CFA2700A16CF2 /* JsCoreEngineWrapper.m */,
+				AE90069D171CF76900A16CF2 /* JavaScript.h */,
+				AE90069E171CF76900A16CF2 /* JavaScriptCore.h */,
+				AE90069F171CF76900A16CF2 /* JSBase.h */,
+				AE9006A0171CF76900A16CF2 /* JSContextRef.h */,
+				AE9006A1171CF76900A16CF2 /* JSObjectRef.h */,
+				AE9006A2171CF76900A16CF2 /* JSStringRef.h */,
+				AE9006A3171CF76900A16CF2 /* JSStringRefCF.h */,
+				AE9006A4171CF76900A16CF2 /* JSValueRef.h */,
+				AE9006A5171CF76900A16CF2 /* WebKitAvailability.h */,
+			);
+			path = JavaScriptCore;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +215,8 @@
 				AE900660171CF0E600A16CF2 /* Default.png in Resources */,
 				AE900662171CF0E600A16CF2 /* Default@2x.png in Resources */,
 				AE900664171CF0E600A16CF2 /* Default-568h@2x.png in Resources */,
+				AE90066D171CF10700A16CF2 /* MainWindow.xib in Resources */,
+				AE900672171CF19D00A16CF2 /* JSEngineView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,6 +229,7 @@
 			files = (
 				AE90065A171CF0E600A16CF2 /* main.m in Sources */,
 				AE90065E171CF0E600A16CF2 /* AppDelegate.m in Sources */,
+				AE900670171CF18B00A16CF2 /* JSEngineViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,6 +301,11 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JSEngine/JSEngine-Prefix.pch";
 				INFOPLIST_FILE = "JSEngine/JSEngine-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/JSEngine/JsCoreEngineiOS-master\"",
+					"\"$(SRCROOT)/JSEngine\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -248,6 +317,11 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JSEngine/JSEngine-Prefix.pch";
 				INFOPLIST_FILE = "JSEngine/JSEngine-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/JSEngine/JsCoreEngineiOS-master\"",
+					"\"$(SRCROOT)/JSEngine\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
